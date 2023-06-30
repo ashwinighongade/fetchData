@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+  
+    color: #333;
+    min-height: 100vh;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 7vh;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    font-weight: bold;
+    color: #333;
+    /* font-style: italic; */
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns:auto auto auto auto  ;
+    grid-gap: 2vw;
+    margin: 2vh auto;
+    padding: 0.05vw;
+    box-shadow: 0 5pc 5pc 0px rgba(0, 0, 0, 0.3);
+}
+.container img{
+    width: 14vw;
+    height: 20vh;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 4vw;
+}
+
+p{
+    text-align: center;
+    padding: 0.5vh;
+    font-size: 0.8pc;
+   
+}
+
+.container,price{
+text-align: center;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    font-weight: 100;
+    /* background-color: black; */
+}
+.priceButton{
+    background-color: aqua;
+}
+
+#filter{
+    color: blue;
+    /* background-color: aqua; */
+    height: 2vh;
+}
